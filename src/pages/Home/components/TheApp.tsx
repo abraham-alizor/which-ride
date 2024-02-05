@@ -14,35 +14,9 @@ function TheApp() {
 						app
 					</div>
 				</Zoom>
-				<div className='block md:hidden  mt-11 text-xl font-medium tracking-normal leading-8 text-center text-neutral-200 max-md:mt-10 max-md:max-w-full'>
+				<div className='  mt-11 text-xl font-medium tracking-normal leading-8 text-center text-neutral-200 max-md:mt-10 max-md:max-w-full'>
 					Allowing riders to select the provider that offers the best price, service or travel time,
 					then seamlessly book within the app
-				</div>
-				<div className='hidden md:flex justify-center items-center'>
-					<Fade
-						triggerOnce={false}
-						cascade
-						duration={50}
-						className=' hidden md:block  mt-11 text-xl font-medium tracking-normal leading-8 text-center text-neutral-200 max-md:mt-10 max-md:max-w-full'
-					>
-						Allowing riders to select the provider that offers the
-					</Fade>{' '}
-					<Fade
-						triggerOnce={false}
-						cascade
-						duration={50}
-						className='hidden md:block  text-xl font-medium tracking-normal leading-8 text-center text-neutral-200  max-md:max-w-full'
-					>
-						best price, service or travel time, then seamlessly
-					</Fade>
-					<Fade
-						triggerOnce={false}
-						cascade
-						duration={50}
-						className='hidden md:block  text-xl font-medium tracking-normal leading-8 text-center text-neutral-200  max-md:max-w-full'
-					>
-						book within the app
-					</Fade>
 				</div>
 
 				<div className='self-stretch   max-md:max-w-full'>
