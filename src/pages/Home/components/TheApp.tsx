@@ -14,11 +14,12 @@ function TheApp() {
 						app
 					</div>
 				</Zoom>
-				<div className='  mt-11 text-xl font-medium tracking-normal leading-8 text-center text-neutral-200 max-md:mt-10 max-md:max-w-full'>
-					Allowing riders to select the provider that offers the best price, service or travel time,
-					then seamlessly book within the app
-				</div>
-
+				<Fade direction='left'>
+					<div className='  mt-11 text-xl font-medium tracking-normal leading-8 text-center text-neutral-200 max-md:mt-10 w-full lg:w-1/2 mx-auto'>
+						Allowing riders to select the provider that offers the best price, service or travel
+						time, then seamlessly book within the app
+					</div>
+				</Fade>
 				<div className='self-stretch   max-md:max-w-full'>
 					<div className='flex  max-md:flex-col'>
 						<Fade
