@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
 
 function Navbar() {
-	const [hovering, setHovering] = useState<number | null>(null);
-
 	const handleClick = (targetId: string) => {
 		console.log(`Clicked on ${targetId}`);
 		// You can add any additional logic here
@@ -15,12 +14,7 @@ function Navbar() {
 	};
 
 	return (
-		<nav
-			onMouseLeave={() => {
-				setHovering(null);
-			}}
-			className='bg-white sticky top-0 z-40'
-		>
+		<nav className='bg-white sticky top-0 z-40'>
 			<div className='flex z-10 gap-5 px-8 lg:px-0 pb-8 lg:pb-0 justify-between self-center w-full text-sm font-bold text-gray-800 max-w-[1205px] max-md:flex-wrap max-md:max-w-full'>
 				<a href='#'>
 					<img

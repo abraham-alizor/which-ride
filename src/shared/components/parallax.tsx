@@ -1,6 +1,5 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useMediaQuery } from 'hooks/useMediaQuery';
 import React, { ReactNode, useEffect, useRef } from 'react';
 
 interface ParallaxProps {

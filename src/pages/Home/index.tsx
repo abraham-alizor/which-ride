@@ -4,7 +4,6 @@ import HeroComponent from './components/Hero';
 import TheApp from './components/TheApp';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
-import { motion, useScroll } from 'framer-motion';
 import ScrollContainer from 'shared/components/ScrollContainer';
 
 function Home() {

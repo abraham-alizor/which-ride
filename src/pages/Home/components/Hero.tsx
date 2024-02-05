@@ -2,8 +2,6 @@
 import { HERO_MOCKUP } from 'assets';
 import { motion, useTransform, useViewportScroll } from 'framer-motion';
 import Parallax from 'shared/components/parallax';
-
-import { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { useMediaQuery } from 'hooks/useMediaQuery';
 

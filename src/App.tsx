@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
 import Home from 'pages/Home';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -16,17 +15,6 @@ function App() {
 			clearTimeout(preloaderTimer);
 		};
 	}, []);
-
-	const icon = {
-		hidden: {
-			pathLength: 0,
-			fill: 'rgba(255, 255, 255, 0)',
-		},
-		visible: {
-			pathLength: 1,
-			fill: 'rgba(255, 255, 255, 1)',
-		},
-	};
 
 	return (
 		<>
